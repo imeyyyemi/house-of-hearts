@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-starter-parer
+        <groupId>com.example</groupId><artifactId>house-of-hearts-api</artifactId><version>0.0.1
+            <properties><java.version>21</java.version></properties>
+            <dependencies>
+                <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-start
+                    <dependency><groupId>org.springframework.boot</groupId><artifactId>spring-boot-start
+                        <dependency><groupId>org.xerial</groupId><artifactId>sqlite-jdbc<artifactId><version
+                            <dependencies>
+                                <build><plugins><plugin><group.org.springframework.boot</groupId<artifactId>spring-boot
+</project>
