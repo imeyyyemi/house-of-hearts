@@ -1,0 +1,61 @@
+.login-selection-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.login-selection-container h2 {
+    color: #333;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.login-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.login-option {
+    flex: 1;
+    max-width: 300px;
+    padding: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-option h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.login-option p {
+    color: #666;
+}
+
+.login-option.admin {
+    background-color: #007bff;
+    color: white;
+}
+
+.login-option.admin p {
+    color: #e6f2ff;
+}
+
+.login-option.student {
+    background-color: #28a745;
+    color: white;
+}
+
+.login-option.student p {
+    color: #e6ffe6;
+}
