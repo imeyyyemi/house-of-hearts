@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of Hearts Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+<div id="root"></div>
+<script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.development.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.28.4/babel.min.js"></script>
+<script src="node_modules/babel-standalone/babel.min.js"></script>
+<script type="text/babel">
+    const { useState, useEffect } = React;
+    function App() {
+        const [user, setUser] = useState(null);
+        const [username, setUsername] = useState('');
+        const [password, setPassword] = useState('');
+        const [quizzes, setQuizzes] = useState([]);
+        const [houses, setHouses] = useState([]);
+        const [selectedHouse, setSelectedHouse] = useState(null);
+        const [newQuiz, setNewQuiz] = useState({ title: '', description: '', houseId: '' });
+        useEffect(() => {
+            fetch('http://localhost:8080/api/houses')
+                .then(res => res.json())
+                .then(data => setHouses(data));
+        }, []);
+        const login = () => {
+            fetch('http://localhost:8080/api/admin/login', {
+                method: 'POST', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            }).then(res => res.json()).then(data => {
+                if (data.error) alert(data.error);
+                else setUser(data);
+            });
+        };
+        const logout = () => {
+            fetch('http://localhost:8080/api/admin/logout', { method: 'POST' })
+                .then(() => setUser(null));
+        };
+    const createQuiz = () => {
+    console.log("Create Quiz clicked", newQuiz); // Add this
+    fetch('http://localhost:8080/api/admin/quizzes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...newQuiz, houseId: parseInt(newQuiz.houseId) }),
+        credentials: 'include'
+    }).then(res => res.json()).then(data => {
+        if (data.error) alert(data.error);
+        else setQuizzes([...quizzes, data]);
+    }).catch(err => console.log("Fetch error:", err));
+};
+        const fetchQuizzes = houseId => {
+            fetch(`http://localhost:8080/api/quizzes${houseId ? `?houseId=${houseId}` : ''}`)
+                .then(res => res.json())
+                .then(data => setQuizzes(data));
+        };
+        return (
+            <div className="container mx-auto p-4">
+                <h1 className="text-3xl font-bold mb-4">House of Hearts Quiz</h1>
+                {user ? (
+                    <div>
+                        <p>Welcome, {user.username}! <button onClick={logout} className="text-red-500">Logout</button></p>
+                        <div className="mb-4">
+                            <input className="border p-2 mr-2" placeholder="Quiz Title" value={newQuiz.title}
+                                onChange={e => setNewQuiz({ ...newQuiz, title: e.target.value })} />
+                            <input className="border p-2 mr-2" placeholder="Description" value={newQuiz.description}
+                                onChange={e => setNewQuiz({ ...newQuiz, description: e.target.value })} />
+                            <select className="border p-2 mr-2" value={newQuiz.houseId}
+                                onChange={e => setNewQuiz({ ...newQuiz, houseId: e.target.value })}>
+                                <option value="">Select House</option>
+                                {houses.map(house => <option key={house.id} value={house.id}>{house.name}</option>)}
+                            </select>
+                            <button onClick={createQuiz} className="bg-blue-500 text-white p-2">Create Quiz</button>
+                        </div>
+                    </div>
+                ) : (
+                    <div className="mb-4">
+                        <input className="border p-2 mr-2" placeholder="Username" value={username}
+                            onChange={e => setUsername(e.target.value)} />
+                        <input className="border p-2 mr-2" type="password" placeholder="Password" value={password}
+                            onChange={e => setPassword(e.target.value)} />
+                        <button onClick={login} className="bg-green-500 text-white p-2">Login</button>
+                    </div>
+                )}
+                <div className="flex gap-2 mb-4">
+                    <button onClick={() => { setSelectedHouse(null); fetchQuizzes(); }}
+                        className="bg-gray-200 p-2">All Houses</button>
+                    {houses.map(house => (
+                        <button key={house.id} onClick={() => { setSelectedHouse(house); fetchQuizzes(house.id); }}
+                            className={`p-2 text-white ${house.color === 'red' ? 'bg-red-500' : house.color === 'blue' ? 'bg-blue-500' : 'bg-green-500'}`}>
+                            {house.name}
+                        </button>
+                    ))}
+                </div>
+                <div>
+                    {quizzes.map(quiz => (
+                        <div key={quiz.id} className="border p-4 mb-2">
+                            <h2 className="text-xl">{quiz.title}</h2>
+                            <p>{quiz.description}</p>
+                            <p>House: {quiz.house.name}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+    }
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+</script>
+</body>
+</html>
