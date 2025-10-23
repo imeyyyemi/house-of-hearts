@@ -6,5 +6,5 @@ package com.example.onlinequiz.model; import jakarta.persistence.*; import java.
     public Question() {} public Question(String text, List<String> options, String correctAnswer, Quiz quiz) {
         this.text=text; this.options=options; this.correctAnswer=correctAnswer; this.quiz=quiz;
         }
-    }
+        //ALL GETTERS/SETTERS (from previous)
 }
