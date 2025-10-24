@@ -4,5 +4,5 @@ import org.springframework.beans.factory.annotation.Autowired; import org.spring
     @Autowired private HouseRepository houseRepo; @Override
     public void run(String... args) {
         if (houseRepo.count() == 0) { houseRepo.save(new House("RED")); houseRepo.save
-    }
+        }
 }
