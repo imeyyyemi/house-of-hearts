@@ -3,8 +3,6 @@ import org.springframework.beans.factory.annotation.Autowired; import org.spring
 @Component public class HouseDataLoader implements CommandLineRunner {
     @Autowired private HouseRepository houseRepo; @Override
     public void run(String... args) {
-        if (houseRepo.count() == 0) {
-            houseRepo.save(new House("RED"));
-            houseRepo.save
+        if (houseRepo.count() == 0) { houseRepo.save(new House("RED")); houseRepo.save
         }
 }
