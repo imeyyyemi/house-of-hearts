@@ -4,98 +4,258 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="Commit additional files" />
+    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="chore: commit and push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/TestAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/SubmitRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/HouseDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/HouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/OnlineQuizApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/repository/QuizRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/OnlineQuizApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/OnlineQuizApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/QuizController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/QuizAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/QuizAttempt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/AdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/AdminRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/HouseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/HouseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Class" />
+        <option value="jeanjade16 &lt;jeanjadejagonoy@gmail.com&gt;" />
+        <option value="Kristelle &lt;platilkristelle@gmail.com&gt;" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "imeyyyemi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;chore: Name&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;kristellemaddara&quot;
+    },
+    {
+      &quot;searchQuery&quot;: &quot;Chore: Name Change&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;searchQuery&quot;: &quot;Chore: Name Change&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/imeyyyemi/house-of-hearts.git",
-    "accountId": "96f7fec7-e8ae-442e-9d83-bd7152be05bc"
-  }
-}]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="34Nd2mh7BkvTnAfIL7XfHFdJhQs" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/imeyyyemi/house-of-hearts.git&quot;,
+    &quot;accountId&quot;: &quot;91fc49f5-ae34-46b5-b83b-4afcf2854577&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34KYkVFl6gUb9ZgIwujFjraqX1T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.OnlineQuizApplication.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "test",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/imeylonganilla/Desktop/houseOfHearts/house-of-hearts-quiz",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OnlineQuizApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Desktop/house-of-hearts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="OnlineQuizApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.quiz.OnlineQuizApplication" />
+    <configuration name="OnlineQuizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="house-of-hearts-quiz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.quiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.quiz.OnlineQuizApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.OnlineQuizApplication" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="" />
-      <created>1761057759437</created>
+      <changelist id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="" />
+      <created>1760963873538</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1761057759437</updated>
+      <updated>1760963873538</updated>
+      <workItem from="1760963875623" duration="4017000" />
+      <workItem from="1761210141120" duration="1236000" />
+      <workItem from="1761286465797" duration="3819000" />
+      <workItem from="1761310016687" duration="1794000" />
+      <workItem from="1761312158353" duration="957000" />
+      <workItem from="1761557331059" duration="1920000" />
+      <workItem from="1762165774480" duration="1755000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit additional files">
+    <task id="LOCAL-00001" summary="Chore: test">
       <option name="closed" value="true" />
-      <created>1761082630300</created>
+      <created>1760964019110</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1761082630300</updated>
+      <updated>1760964019110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chore: Change">
+      <option name="closed" value="true" />
+      <created>1760966543077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760966543077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Chore: Change">
+      <option name="closed" value="true" />
+      <created>1760966601853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760966601853</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Chore: Changes">
+      <option name="closed" value="true" />
+      <created>1760967331838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760967331838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chore: Name Changes">
+      <option name="closed" value="true" />
+      <created>1760967451237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760967451237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Chore: Name Changes">
+      <option name="closed" value="true" />
+      <created>1760969397238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760969397238</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chore: Name Changes">
+      <option name="closed" value="true" />
+      <created>1761210929185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761210929185</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1761298782141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761298782141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="4a0953fd-7688-43c9-8b56-808ffb8be86d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="4a0953fd-7688-43c9-8b56-808ffb8be86d">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="origin/main..origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit additional files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit additional files" />
+    <MESSAGE value="Chore: test" />
+    <MESSAGE value="Chore: Change" />
+    <MESSAGE value="Chore: Changes" />
+    <MESSAGE value="Chore: Name Changes" />
+    <MESSAGE value="chore: commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: commit and push" />
   </component>
 </project>
