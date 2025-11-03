@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="Commit additional files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/OnlineQuizApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/OnlineQuizApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/QuizController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/QuizAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/QuizAttempt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/AdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/AdminRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/HouseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/HouseRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" afterDir="false" />
+    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="chore: commit and push">
+      <change afterPath="$PROJECT_DIR$/frontend/node_modules/postcss-initial/_/.config/configstore/update-notifier-npm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.OnlineQuizApplication.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/imeylonganilla/Desktop/houseOfHearts/house-of-hearts-quiz&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OnlineQuizApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging test",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/imeylonganilla/Desktop/houseOfHearts/house-of-hearts-quiz",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="OnlineQuizApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.quiz.OnlineQuizApplication" />
@@ -108,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761082630300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit additional files">
+      <option name="closed" value="true" />
+      <created>1762166441923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762166441923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit additional files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit additional files" />
+    <MESSAGE value="chore: commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: commit and push" />
   </component>
 </project>
