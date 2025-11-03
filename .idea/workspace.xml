@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="chore: commit and push">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/ApiController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/TestAdminController.java" afterDir="false" />
@@ -37,6 +38,11 @@
       <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" afterDir="false" />
+=======
+    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="chore: commit and push">
+      <change afterPath="$PROJECT_DIR$/frontend/node_modules/postcss-initial/_/.config/configstore/update-notifier-npm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+>>>>>>> origin/test
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+<<<<<<< HEAD
   &quot;history&quot;: [
     {
       &quot;searchQuery&quot;: &quot;chore: Name&quot;,
@@ -66,6 +73,21 @@
   &quot;lastFilter&quot;: {
     &quot;searchQuery&quot;: &quot;Chore: Name Change&quot;
   }
+=======
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;imeyyyemi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/imeyyyemi/house-of-hearts.git&quot;,
+    &quot;accountId&quot;: &quot;29d1898f-0247-437a-82e3-33bf065e9be2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+>>>>>>> origin/test
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -81,6 +103,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -106,6 +129,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OnlineQuizApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging test",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/imeylonganilla/Desktop/houseOfHearts/house-of-hearts-quiz",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+>>>>>>> origin/test
   }
 }</component>
   <component name="RunManager">
@@ -148,6 +187,7 @@
       <option name="project" value="LOCAL" />
       <updated>1760964019110</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="Chore: Change">
       <option name="closed" value="true" />
       <created>1760966543077</created>
@@ -205,6 +245,17 @@
       <updated>1761298782141</updated>
     </task>
     <option name="localTasksCounter" value="9" />
+=======
+    <task id="LOCAL-00002" summary="Commit additional files">
+      <option name="closed" value="true" />
+      <created>1762166441923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762166441923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+>>>>>>> origin/test
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,10 +302,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="Chore: test" />
     <MESSAGE value="Chore: Change" />
     <MESSAGE value="Chore: Changes" />
     <MESSAGE value="Chore: Name Changes" />
+=======
+    <MESSAGE value="Commit additional files" />
+>>>>>>> origin/test
     <MESSAGE value="chore: commit and push" />
     <option name="LAST_COMMIT_MESSAGE" value="chore: commit and push" />
   </component>
