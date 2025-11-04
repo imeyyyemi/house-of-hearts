@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="Chore: pom.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/controller/AdminController.java" afterDir="false" />
-    </list>
+    <list default="true" id="472b0531-9f26-463a-b228-b9ca3ab16d43" name="Changes" comment="Chore: commit and push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1762235991364" duration="91000" />
       <workItem from="1762236099169" duration="46000" />
       <workItem from="1762236937109" duration="47000" />
-      <workItem from="1762237124620" duration="2577000" />
+      <workItem from="1762237124620" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="Commit additional files">
       <option name="closed" value="true" />
@@ -116,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761082630300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1762243877932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762243877933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit additional files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit additional files" />
+    <MESSAGE value="Chore: commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chore: commit and push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
