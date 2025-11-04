@@ -17,6 +17,12 @@
         <option value="Kristelle &lt;platilkristelle@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="test" />
@@ -112,7 +118,7 @@
       <workItem from="1761312158353" duration="957000" />
       <workItem from="1761557331059" duration="1920000" />
       <workItem from="1762165774480" duration="1755000" />
-      <workItem from="1762252336986" duration="2360000" />
+      <workItem from="1762252336986" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="Chore: test">
       <option name="closed" value="true" />
@@ -210,7 +216,39 @@
       <option name="project" value="LOCAL" />
       <updated>1762257020741</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1762257058972</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762257058972</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1762257095113</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762257095113</updated>
+    </task>
+    <task id="LOCAL-00015" summary="chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1762257108332</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762257108332</updated>
+    </task>
+    <task id="LOCAL-00016" summary="chore: commit and push">
+      <option name="closed" value="true" />
+      <created>1762257161154</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762257161154</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
