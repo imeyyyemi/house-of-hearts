@@ -41,3 +41,10 @@ public class AdminController {
         return ResponseEntity.badRequest().body(Map.of("error", "Wrong credentials"));
     }
 }
+
+        @GetMapping("/api/admin/quizzes")
+         public ResponseEntity<List<Quiz>> listQuizzes() {
+         List<Quiz> quizzes = quizService.getAllQuizzes();
+         return ResponseEntity.ok(quizzes);
+    }
+}

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class" />
+    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/ApiController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +76,7 @@
     "Spring Boot.OnlineQuizApplication.executor": "Run",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "#3 on dev2",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/OneDrive/Desktop/house-of-hearts",
@@ -88,6 +92,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="OnlineQuizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="house-of-hearts-quiz" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.quiz.OnlineQuizApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,6 +124,7 @@
       <workItem from="1762252336986" duration="2557000" />
       <workItem from="1762257317098" duration="843000" />
       <workItem from="1762326903325" duration="2958000" />
+      <workItem from="1762417005438" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Chore: test">
       <option name="closed" value="true" />
@@ -264,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762333948714</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class">
+      <option name="closed" value="true" />
+      <created>1762340783021</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1762340783021</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class">
+      <option name="closed" value="true" />
+      <created>1762340901273</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1762340901273</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +338,7 @@
     <MESSAGE value="Chore: Changes" />
     <MESSAGE value="Chore: Name Changes" />
     <MESSAGE value="chore: commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: commit and push" />
+    <MESSAGE value="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class" />
   </component>
 </project>
