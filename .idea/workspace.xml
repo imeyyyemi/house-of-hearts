@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="chore: commit and push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762257352507</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class">
+      <option name="closed" value="true" />
+      <created>1762333948714</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762333948714</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
