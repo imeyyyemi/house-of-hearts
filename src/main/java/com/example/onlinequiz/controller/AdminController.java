@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.CrossOrigin; // Add this
 public class AdminController {
     @PostMapping("/api/admin/login")
     public ResponseEntity<?> login(@RequestBody Map<String, String> credentials, HttpSession session) {
-        String username = credentials.get("username");
+        String username = credentials.get("username");-
         String password = credentials.get("password");
         System.out.println("Login attempt for username: " + username);
 
