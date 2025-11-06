@@ -4,9 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="chore: change name">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/ApiController.java" afterDir="false" />
+    <list default="true" id="2a130541-c828-4d61-9550-962f5d621ae5" name="Changes" comment="chore: Commit and push">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/assets/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/AdminDashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/AdminDashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/AdminDashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/AdminDashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/CreateQuiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/CreateQuiz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/CreateQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/CreateQuiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/EditQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/EditQuiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/LoginSelection.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/LoginSelection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/LoginSelection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/LoginSelection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/QuizList.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/QuizList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/QuizList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/QuizList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/StudentLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/StudentLogin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/StudentLogin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/StudentLogin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/TakeQuiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/TakeQuiz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/TakeQuiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/components/TakeQuiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/house-of-hearts-quiz/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/OnlineQuizApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/controller/QuizController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/model/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/model/QuizAttempt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/repository/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/repository/HouseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/repository/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/repository/QuizAttemptRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/example/quiz/repository/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/config/CorsGlobalConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/admin_env.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/admin_env.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/OnlineQuizApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/QuizController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/model/QuizAttempt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/HouseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuestionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizAttemptRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/com/example/quiz/repository/QuizRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/target/classes/config/CorsGlobalConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/controller/ApiController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/SubmitRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/onlinequiz/model/SubmitRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,35 +141,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.OnlineQuizApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on dev2&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/OneDrive/Desktop/house-of-hearts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.OnlineQuizApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "#3 on dev2",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Desktop/house-of-hearts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="git branch" />
@@ -116,11 +180,46 @@
   </component>
   <component name="RunManager">
     <configuration name="OnlineQuizApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="house-of-hearts-quiz" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.quiz.OnlineQuizApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="house-of-hearts-quiz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="house-of-hearts-quiz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
@@ -152,7 +251,9 @@
       <workItem from="1762417887231" duration="710000" />
       <workItem from="1762418642649" duration="1552000" />
       <workItem from="1762420347166" duration="569000" />
-      <workItem from="1762421007391" duration="1063000" />
+      <workItem from="1762421007391" duration="1647000" />
+      <workItem from="1762422677680" duration="88000" />
+      <workItem from="1762422788482" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="Chore: test">
       <option name="closed" value="true" />
@@ -338,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762420093004</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="chore: Commit and push">
+      <option name="closed" value="true" />
+      <created>1762422315963</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762422315963</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +527,7 @@
     <MESSAGE value="Merge branch 'dev2' of https://github.com/imeyyyemi/house-of-hearts into dev2&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/target/classes/com/example/quiz/controller/AdminController.class&#10;#&#9;backend/target/classes/com/example/quiz/controller/QuizController.class&#10;#&#9;backend/target/classes/com/example/quiz/repository/AdminRepository.class" />
     <MESSAGE value="Merge remote-tracking branch 'origin/dev2' into dev2" />
     <MESSAGE value="chore: change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: change name" />
+    <MESSAGE value="chore: Commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: Commit and push" />
   </component>
 </project>

@@ -1,5 +1,3 @@
-package com.example.onlinequiz.controller; // Ensure this package matches your structure
-
 import java.util.List;
 
 // This class represents the structure of the JSON request body
